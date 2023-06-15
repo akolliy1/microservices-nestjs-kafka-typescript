@@ -16,7 +16,7 @@ async function bootstrap() {
 
       options: {
         client: {
-          brokers: ['localhost:9092'],
+          brokers: ['127.0.0.1:9092'],
         },
         consumer: {
           groupId: 'auth-consumer',
